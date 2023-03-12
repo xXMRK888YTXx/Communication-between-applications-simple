@@ -24,6 +24,6 @@ Permission to send a message to the receiver, which is located in [:accepter], h
 This means that for example:
 You have an application [:accepter]  and [:sender] and they have a debug signature. Since the permission is specified in the manifest of the [:sender] application and they are signed with one key, the system will give access to the receiver located in [:accepter] .
 
-If we assume we are from the application [:facehaker] which is also signed debug, we will send a message to the receiver, then the system will not allow this to be done because the required permission is not specified in the manifest.  Also, the system will not allow access to the receiver if the applications have different signatures (for example, [:accepter] is signed with a debug signature, and [:facehacker] with a release signature), even though we will indicate the permission in the manifest.
+If we assume we are from the application [:fakehaker] which is also signed debug, we will send a message to the receiver, then the system will not allow this to be done because the required permission is not specified in the manifest.  Also, the system will not allow access to the receiver if the applications have different signatures (for example, [:accepter] is signed with a debug signature, and [:fakehacker] with a release signature), even though we will indicate the permission in the manifest.
 
 I hope you understand my explanation )
